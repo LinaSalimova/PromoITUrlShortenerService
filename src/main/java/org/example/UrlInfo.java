@@ -2,7 +2,9 @@ package org.example;
 
 import java.time.LocalDateTime;
 import java.util.UUID;
-
+/**
+ * Класс, представляющий информацию о сокращенной ссылке.
+ */
 public class UrlInfo {
     private final String longUrl;
     private final String shortUrl;
@@ -33,7 +35,9 @@ public class UrlInfo {
 
     // Сеттер для active
     public void setActive(boolean active) { this.active = active; }
-
+    /**
+     * Увеличивает счетчик переходов по ссылке.
+     */
     public void incrementClicks() {
         clicks++;
     }
