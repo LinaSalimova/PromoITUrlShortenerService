@@ -1,7 +1,9 @@
 package org.example;
 
 import java.util.UUID;
-
+/**
+ * Реализация интерфейса UserNotifier, выводящая уведомления в консоль.
+ */
 public class ConsoleUserNotifier implements UserNotifier {
     @Override
     public void notifyLinkExpired(UUID userId, String shortUrl) {
