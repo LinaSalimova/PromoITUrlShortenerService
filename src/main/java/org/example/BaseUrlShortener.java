@@ -1,7 +1,9 @@
 package org.example;
 
 import java.util.UUID;
-
+/**
+ * Реализация интерфейса UrlShortener, использующая алгоритм Base62 для создания коротких ссылок.
+ */
 public class BaseUrlShortener implements UrlShortener {
         private static final String ALPHABET = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
         private static final int BASE = ALPHABET.length();
