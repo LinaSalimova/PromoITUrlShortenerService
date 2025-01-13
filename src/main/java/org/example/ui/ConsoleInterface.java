@@ -1,5 +1,5 @@
-package org.example;
-import java.util.Scanner;
+package org.example.ui;
+import org.example.service.UrlShortenerService;
 
 import java.util.Scanner;
 

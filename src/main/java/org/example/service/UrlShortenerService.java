@@ -1,4 +1,10 @@
-package org.example;
+package org.example.service;
+
+import org.example.repository.UrlManager;
+import org.example.util.UrlShortener;
+import org.example.user.UserManager;
+import org.example.notification.UserNotifier;
+import org.example.model.UrlInfo;
 
 import java.awt.*;
 import java.net.URI;

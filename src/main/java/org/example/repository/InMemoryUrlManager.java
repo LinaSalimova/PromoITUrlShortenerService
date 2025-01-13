@@ -1,4 +1,6 @@
-package org.example;
+package org.example.repository;
+
+import org.example.model.UrlInfo;
 
 import java.time.LocalDateTime;
 import java.util.Map;
