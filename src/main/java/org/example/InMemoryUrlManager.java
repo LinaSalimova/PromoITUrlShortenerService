@@ -3,7 +3,9 @@ package org.example;
 import java.time.LocalDateTime;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
-
+/**
+ * Реализация интерфейса UrlManager, хранящая данные в памяти.
+ */
 public class InMemoryUrlManager implements UrlManager {
     private Map<String, UrlInfo> urlDatabase = new ConcurrentHashMap<>();
 
